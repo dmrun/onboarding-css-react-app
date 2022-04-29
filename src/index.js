@@ -2,9 +2,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout.js";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import RecentWork from "./pages/RecentWork";
+import "./style/styles.css";
 
 export default function Appv2() {
   return (
@@ -12,7 +14,8 @@ export default function Appv2() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="recent" element={<RecentWork />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
