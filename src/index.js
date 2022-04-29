@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import Layout from "./pages/Layout.js";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 
-export default function App() {
+export default function Appv2() {
   return (
     <BrowserRouter>
       <Routes>
@@ -15,7 +15,6 @@ export default function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
-          <h1>Testv2</h1>
         </Route>
       </Routes>
     </BrowserRouter>
@@ -23,4 +22,4 @@ export default function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<Appv2 />);
