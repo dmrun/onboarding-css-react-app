@@ -10,36 +10,33 @@ const Projects = () => {
         <div className="container">
           <div className="skills-container">
             <img src={wep1} alt="Weapons" />
-            <h3>Desenvolvimento</h3>
-            <p>Minha maior paixão é desenvolver projetos web</p>
-            <p className="subtitle">Linguagens que utilizo:</p>
-            <p>HTML, CSS, JS, PHP e Python</p>
-            <p className="subtitle">Projetos que posso desenvolver:</p>
-            <p>
-              E-commerces, Sites institucionais, Sistemas de qualquer
-              complexidade
-            </p>
+            <h3>Development</h3>
+            <p>My biggest passion is developing web projects</p>
+            <p className="subtitle">Languages ​​I use:</p>
+            <p>HTML, CSS, JS, PHP and Python</p>
+            <p className="subtitle">Projects I can develop:</p>
+            <p>E-commerces, Institutional Sites, Systems of any complexity</p>
           </div>
           <div className="skills-container central">
             <img src={wep2} alt="Weapons" />
-            <h3>Criação</h3>
-            <p>Atuo também na análise e gerenciamento de projetos</p>
-            <p className="subtitle">Meus conhecimentos:</p>
+            <h3>Creation</h3>
+            <p>I also work in project analysis and management</p>
+            <p className="subtitle">My knowledge:</p>
             <p>
-              Análise de Software, Engenharia de Requisitos, Análise de Infra
+              Software Analysis, Requirements Engineering, Infrastructure
+              Analysis
             </p>
           </div>
           <div className="skills-container">
             <img src={wep3} alt="Weapons" />
-            <h3>Infraestrutura</h3>
+            <h3>Infrastructure</h3>
             <p>
-              Posso mensurar seus servidores, deixando o projeto mais
-              performático
+              I can measure your servers, making the project more performative
             </p>
-            <p className="subtitle">Serviços de Cloud:</p>
+            <p className="subtitle">Cloud Services:</p>
             <p>AWS, Google Cloud, Microsoft Azure</p>
-            <p className="subtitle">O que posso fazer:</p>
-            <p>Clusters, servidores de CDN, diminuir o tempo de requisição</p>
+            <p className="subtitle">What can I do:</p>
+            <p>Clusters, CDN servers, decrease request time</p>
           </div>
         </div>
       </section>
