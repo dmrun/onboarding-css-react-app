@@ -1,14 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Image from "../components/Image.js";
+import RegularParagraph from "../components/RegularParagraph.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <Image src={logo} className="App-logo" alt="logo" />
+        <RegularParagraph
+          text={["Edit ", <code>src/App.js</code>, " and save to reload."]}
+        />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://reactjs.org"

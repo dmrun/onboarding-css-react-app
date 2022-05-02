@@ -1,13 +1,15 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from "../logo.svg";
 import ninja from "../img/shuriken.png";
+import Title from "../components/Title.js";
+import Image from "../components/Image.js";
 
 const Layout = () => {
   return (
     <>
       <header id="navbar">
-        <img src={ninja} alt="Good Ninja" />
-        <h2>Shuriken</h2>
+        <Image src={ninja} alt="Good Ninja" />
+        <Title text={"Shuriken"} />
         <nav>
           <ul id="navbar-list">
             <li>
