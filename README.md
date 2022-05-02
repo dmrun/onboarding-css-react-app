@@ -29,11 +29,19 @@ Check the following pages while you walk through Ninja Profile:
 
 ### Home
 
+It will give you a brief description about Ninja.
+
 ### Projects
+
+In the projects section you will have the top three areas where Ninja work.
 
 ### Recent Work
 
+At the Recent Work section you can get a pretty clear view of the art that Ninja made.
+
 ### Contact
+
+The contact form will let you send a message to Ninja.
 
 ## Credits
 
